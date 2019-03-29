@@ -1,5 +1,7 @@
 package com.example.springjwtexample1.configs;
 
+import com.example.springjwtexample1.filters.JWTAuthenticationFilter;
+import com.example.springjwtexample1.filters.JWTLoginFilter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
